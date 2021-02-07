@@ -14,8 +14,17 @@ export default {
 	  }
 	  uni.navigateTo({ url: pagePath })
 	},
-	
+	/**
+	 * mescroll测试
+	 */
 	navigateToMescroll(){
 		this.navigateTo("/pages/test/mescroll-page")
+	},
+	/**
+	 * 跳转到iconfont图标测试页
+	 */
+	navigateToIconFont(){
+		this.navigateTo("/pages/test/test-iconfont-page")
 	}
+	
 }

@@ -2,7 +2,6 @@
 	<view>
 		<!-- 菜单 (悬浮,预先隐藏)-->
 		<me-tabs v-if="isShowSticky" v-model="tabIndex" :fixed="true" :tabs="tabs" @change="tabChange"></me-tabs>
-		
 		<mescroll-body ref="mescrollRef" @init="mescrollInit" @down="downCallback" @up="upCallback" :up="upOption" @scroll="scroll" @topclick="topClick">
 			<!--轮播-->
 			<swiper style="min-height: 300rpx" autoplay="true" interval="3000" duration="300" circular="true">

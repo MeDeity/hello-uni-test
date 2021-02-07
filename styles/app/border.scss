@@ -1,0 +1,28 @@
+.border-none {
+	border: none;
+}
+
+.border-none::after {
+	border: none;
+}
+
+/*圆角50%*/
+.border-radius-50p {
+	border-radius: 50%;
+}
+
+.border-radius-5px {
+	border-radius: 5rpx;
+}
+
+.border-radius-8px {
+	border-radius: 8rpx;
+}
+
+.border-solid-1px {
+	border: solid 1rpx #0081ff;
+}
+
+.border-dashed-1px {
+  border: 1upx dashed #0081ff;
+}

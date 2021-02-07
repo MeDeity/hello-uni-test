@@ -1,0 +1,181 @@
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+/*水平不换行效果*/
+.flex-row-nowrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap
+}
+
+
+/*水平换行效果*/
+.flex-row-wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap
+}
+
+/*主轴及交叉轴对齐*/
+.flex-row-center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/*水平主轴对齐*/
+.flex-row-main-center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/*水平交叉轴对齐(上下对齐)*/
+.flex-row-cross-center {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+/*水平主轴对齐*/
+.flex-row-cross-center {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+/*
+ * 水平主轴 
+ * 1.两端对齐，项目之间的间隔都相等
+ */
+.flex-row-between {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*水平方向上 
+ *1.两端对齐，项目之间的间隔都相等 
+ *2.交叉轴上居中
+ */
+.flex-row-between-center {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*
+ * 水平主轴 
+ * 1.每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
+ */
+.flex-row-around {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+/*垂直换行*/
+.flex-col-wrap {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+/*垂直不换行*/
+.flex-col-nowrap {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+/* 垂直方向 水平居中 */
+.flex-col-cross-center {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+
+/* 垂直方向 水平居中 */
+.flex-col-center {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*垂直方向 两端对齐，项目之间的间隔都相等*/
+.flex-col-between {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/*垂直方向 每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍*/
+.flex-col-around {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+/*垂直方向上 
+ *1.两端对齐，项目之间的间隔都相等 
+ *2.交叉轴上居中
+ */
+.flex-col-between-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*项目不放大*/
+.flex-item-not-grow {
+	flex-grow: 0;
+}
+
+/*项目等比放大*/
+.flex-item-grow {
+	flex-grow: 1;
+}
+
+/*项目的缩小比例，默认为1，即如果空间不足，该项目将缩小*/
+.flex-item-shrink {
+	flex-shrink: 1;
+}
+
+/*项目的缩小比例,项目不缩小*/
+.flex-item-not-shrink {
+	flex-shrink: 0;
+}
+/*align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto
+ *表示继承父元素的align-items属性，如果没有父元素，则等同于stretch
+ */
+.flex-item-self-start {
+	align-self: flex-start
+}
+
+.flex-item-self-end {
+	align-self: flex-end
+}
+
+.flex-item-self-center {
+	align-self: center
+}
+
+/**
+ * 占满剩余空间
+ */
+.flex-fill{
+  flex: 1;
+}
+

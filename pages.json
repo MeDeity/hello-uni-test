@@ -11,6 +11,12 @@
 			"style": {
 				"navigationBarTitleText": "mscroll-test"
 			}
+		},
+		{
+			"path": "pages/test/test-iconfont-page",
+			"style": {
+				"navigationBarTitleText": "test-icon"
+			}
 		}
 	],
 	"globalStyle": {

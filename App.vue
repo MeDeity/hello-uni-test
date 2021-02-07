@@ -14,4 +14,6 @@
 
 <style>
 	/*每个页面公共css */
+	@import '@/static/iconfont-weapp/iconfont-weapp-icon.css';
+	@import "@/styles/index.scss";
 </style>
