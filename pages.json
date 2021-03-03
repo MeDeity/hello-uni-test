@@ -17,6 +17,18 @@
 			"style": {
 				"navigationBarTitleText": "test-icon"
 			}
+		},
+		{
+			"path": "pages/test/test-ui-page",
+			"style": {
+				"navigationBarTitleText": "test-ui"
+			}
+		},
+		{
+			"path": "pages/HM-search/HM-search",
+			"style": {
+				"navigationBarTitleText": "搜索页面"
+			}
 		}
 	],
 	"globalStyle": {

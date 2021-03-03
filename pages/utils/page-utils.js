@@ -26,5 +26,18 @@ export default {
 	navigateToIconFont(){
 		this.navigateTo("/pages/test/test-iconfont-page")
 	}
-	
+	,
+	/**
+	 * 跳转到UI布局测试页
+	 */
+	navigateToUI(){
+		this.navigateTo("/pages/test/test-ui-page")
+	}
+	,
+	/**
+	 * 跳转到UI布局测试页
+	 */
+	navigateToSearchPage(){
+		this.navigateTo("/pages/HM-search/HM-search")
+	}
 }
